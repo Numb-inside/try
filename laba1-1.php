@@ -1,11 +1,11 @@
 <?php
 function calc($primer)
 {
-	$resultatik = eval("return $primer;");
-	if (is_string($resultatik)) {
-		echo "Ошибка";
-	} else {
-		echo $resultatik;
-	}
+    $resultatik = eval("return $primer;");
+    if (is_string($resultatik)) {
+        echo "Ошибка";
+    } else {
+        echo $resultatik;
+    }
 }
 calc("5.6*4.5");
