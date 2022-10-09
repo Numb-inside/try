@@ -3,7 +3,7 @@ function calc($primer)
 {
     $resultatik = eval("return $primer;");
     if (is_string($resultatik)) {
-        echo "Ошибкочка";
+        echo "Ошибочка";
     } else {
         echo $resultatik;
     }
