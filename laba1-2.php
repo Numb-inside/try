@@ -23,6 +23,11 @@ function sumTime($timeFirst, $timeSecond)
         $secondSumm = $secondSumm - 60;
         $firstSumm = $firstSumm + 1;
     }
+    echo $days . "-й день<br>";
+    echo $weeks . "-я неделя<br>";
+    echo $months . "-й месяц<br>";
+    /* 
+    здесь происходит счет дней, неделей и месяцев
     while ($firstSumm > 23) {
         $firstSumm = $firstSumm - 24;
         $days = $days + 1;
@@ -36,8 +41,6 @@ function sumTime($timeFirst, $timeSecond)
         $weeks = $weeks - 4;
     }
     echo $firstSumm . ":", $secondSumm . ":", $thirdSumm . "<br>";
-    echo $days . "-й день<br>";
-    echo $weeks . "-я неделя<br>";
-    echo $months . "-й месяц<br>";
+     */
 }
-sumTime("1:20:30", "2:20:39");
+sumTime("10:20:30", "10:20:30");
