@@ -39,5 +39,5 @@ function sumTime($timeFirst, $timeSecond){
 	echo $weeks."-я неделя<br>";
 	echo $months."-й месяц<br>";
 }
-sumTime("10:20:30", "10:20:39");
+sumTime("23:59:00", "0:0:59");
 ?>
