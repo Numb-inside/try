@@ -1,0 +1,101 @@
+*{ padding:0; margin:0; border:0; }
+*, *:before, *:after{-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing: border-box;}
+:focus, :active{outline:none;}
+a:focus, a:active{outline:none;}
+nav, footer, header, aside{display:block;}
+html, body{height:100%; width:100%; font-size:100%; line-height:1; font-size:14px; -ms-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}
+input, button, textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0; border:0;}
+a, a:visited{text-decoration:none; color: black;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1, h2, h3, h4, h5, h6{font-size:inherit; font-weight:inherit;}
+body{
+	background-color: #1a202c;
+	color: #a9bdde;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	width: 1000px;
+}
+.content{
+	flex: 1 1 auto;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+.logo_logo{
+	display: flex;
+	color:#ff3b77;
+	padding: 20px 0px;
+	align-items: center;
+}
+.logo_logo img{
+	width: 100px;
+}
+.info{
+	display: flex;
+	position: relative;
+	border-radius: 10px;
+	background: #2e3748;
+	flex-wrap: wrap;
+}
+.info_item{
+	flex: 0 1 50%;
+	padding: 20px;
+	display: flex;
+	gap: 20px;
+}
+.info:before, .info:after{
+	position: absolute;
+	content: "";
+	border: 1px solid #4c5868;
+}
+.info:after{
+	height: 100%;
+	left: 50%;
+}
+.info:before{
+	width: 100%;
+	top: 50%;
+}
+.info_item img, .trash img{
+	width: 30px;
+}
+.info_glavn{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	line-height: 25px;
+}
+.main_title{
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+}
+.trash{
+	display: flex;
+	padding: 15px 0px;
+	justify-content: space-between;
+}
+.trashcan:first-child{
+	text-decoration: underline;
+}
+.first_trash{
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.shop, .sponsor{
+	display: flex;
+	gap: 5px;
+	align-items: center;
+}
