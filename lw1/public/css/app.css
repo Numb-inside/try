@@ -35,8 +35,13 @@ body{
 .logo_logo{
 	display: flex;
 	color:#ff3b77;
+	font-size: 40px;
+	text-transform: uppercase;
 	padding: 20px 0px;
 	align-items: center;
+}
+.logo_logo p:first-letter{
+	font-size: 70px;
 }
 .logo_logo img{
 	width: 100px;

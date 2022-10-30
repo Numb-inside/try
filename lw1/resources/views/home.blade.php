@@ -15,45 +15,45 @@
             <div class="Logo">
                 <div class="container">
                     <div class="logo_logo">
-                        <img src="{{ asset('kraska.png') }}"> KRASKAAAAAAAAAAAAAAAA
+                        <img src="{{ $img }}"><p>{{ $mainTitle }}</p>
                     </div>
                     <div class="info">
                         <div class="info_item">
-                            <div class="info_img"><img src="{{ asset('kraska.png') }}"></div>
+                            <div class="info_img"><img src="{{ $img }}"></div>
                             <div class="info_glavn">
-                                <div class="main_title">Color Documentation</div>
-                                <div class="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quidem distinctio iusto? Vel nulla deserunt labore, dolorum amet possimus aliquid.</div>
+                                <div class="main_title">{{ $titleOne }}</div>
+                                <div class="main_text">{{ $txtOne }}</div>
                             </div>
                         </div>
                         <div class="info_item">
-                            <div class="img"><img src="{{ asset('kraska.png') }}"></div>
+                            <div class="img"><img src="{{ $img }}"></div>
                             <div class="info_glavn">
-                                <div class="main_title">Colorcast</div>
-                                <div class="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nam perspiciatis eveniet? Repellat saepe pariatur labore provident ducimus magnam consequuntur.</div>
+                                <div class="main_title">{{ $titleTwo }}</div>
+                                <div class="main_text">{{ $txtTwo }}</div>
                             </div>
                         </div>
                         <div class="info_item">
-                            <div class="img"><img src="{{ asset('kraska.png') }}"></div>
+                            <div class="img"><img src="{{ $img }}"></div>
                             <div class="info_glavn">
-                                <div class="main_title">Color news</div>
-                                <div class="main_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nulla! Maxime ipsam dolores iure accusantium praesentium incidunt deserunt dolore natus?</div>
+                                <div class="main_title">{{ $titleThree }}</div>
+                                <div class="main_text">{{ $txtThree }}</div>
                             </div>
                         </div>
                         <div class="info_item">
-                            <div class="img"><img src="{{ asset('kraska.png') }}"></div>
+                            <div class="img"><img src="{{ $img }}"></div>
                             <div class="info_glavn">
-                                <div class="main_title">Color ecosytem</div>
-                                <div class="main_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, temporibus ipsa quod odit nostrum doloremque doloribus eius quasi laudantium exercitationem!</div>
+                                <div class="main_title">{{ $titleFour }}</div>
+                                <div class="main_text">{{ $txtFour }}</div>
                         </div>
                         </div>
                     </div>
                     <div class="trash">
                         <div class="first_trash trashcan">
-                                <div class="shop"><img src="{{ asset('kraska.png') }}">Shop</div>
-                                <div class="sponsor"><img src="{{ asset('kraska.png') }}">Sponsor</div>
+                                <div class="shop"><img src="{{ $img }}">{{ $shop }}</div>
+                                <div class="sponsor"><img src="{{ $img }}">{{ $sponsor }}</div>
                         </div>
                         <div class="second_trash trashcan">
-                            <div class="trash_built">Built v8.83.25</div>
+                            <div class="trash_built">{{ $build }}</div>
                         </div>
                     </div>
                 </div>
