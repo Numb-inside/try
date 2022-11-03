@@ -15,7 +15,8 @@
             <div class="Logo">
                 <div class="container">
                     <div class="logo_logo">
-                        <img src="{{ $img }}"><p>{{ $mainTitle }}</p>
+                        <img src="{{ $img }}">
+                        <p>{{ $mainTitle }}</p>
                     </div>
                     <div class="info">
                         <div class="info_item">
@@ -44,13 +45,13 @@
                             <div class="info_glavn">
                                 <div class="main_title">{{ $titleFour }}</div>
                                 <div class="main_text">{{ $txtFour }}</div>
-                        </div>
+                            </div>
                         </div>
                     </div>
                     <div class="trash">
                         <div class="first_trash trashcan">
-                                <div class="shop"><img src="{{ $img }}">{{ $shop }}</div>
-                                <div class="sponsor"><img src="{{ $img }}">{{ $sponsor }}</div>
+                            <div class="shop"><img src="{{ $img }}">{{ $shop }}</div>
+                            <div class="sponsor"><img src="{{ $img }}">{{ $sponsor }}</div>
                         </div>
                         <div class="second_trash trashcan">
                             <div class="trash_built">{{ $build }}</div>

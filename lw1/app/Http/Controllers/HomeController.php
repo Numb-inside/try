@@ -18,7 +18,7 @@ class HomeController extends Controller
             'titleThree' => 'Color news',
             'txtThree' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nulla! Maxime ipsam dolores iure accusantium praesentium incidunt deserunt dolore natus?',
             'titleFour' => 'Color ecosystem',
-            'txtFour'=> 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, temporibus ipsa quod odit nostrum doloremque doloribus eius quasi laudantium exercitationem!',
+            'txtFour' => 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, temporibus ipsa quod odit nostrum doloremque doloribus eius quasi laudantium exercitationem!',
             'shop' => 'Shop',
             'sponsor' => 'Sponsor',
             'build' => 'Build v8.83.25',
